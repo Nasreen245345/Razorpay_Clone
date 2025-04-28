@@ -19,7 +19,7 @@ This project focuses mainly on practicing UI design and Tailwind CSS utility cla
 ## Folder Structure
 
 ```bash
-Razorpay_Clone/
+Razorpay_Clone/dist
 ├── Razorpay_Clone.html
 ├── README.md
 ├── /images 
