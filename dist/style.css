@@ -2352,6 +2352,9 @@
   .opacity-80 {
     opacity: 80%;
   }
+  .opacity-100 {
+    opacity: 100%;
+  }
   .mix-blend-multiply {
     mix-blend-mode: multiply;
   }
@@ -2658,6 +2661,13 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .group-hover\:bg-blue-700 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        background-color: var(--color-blue-700);
+      }
+    }
   }
   .group-hover\:text-gray-600 {
     &:is(:where(.group):hover *) {
