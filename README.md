@@ -60,7 +60,6 @@ Razorpay_Clone/dist
 - Responsive web design with Tailwind's breakpoint utilities (`sm:`, `md:`, `lg:`, `xl:`)
 - Building clean layouts using Flexbox and Grid
 - Utility-first approach to CSS
-- Working with responsive navigation bars
 
 ---
 
